@@ -9,9 +9,8 @@ import com.abc.magentoObjects.Home;
 import com.abc.magentoObjects.LogOut;
 import com.abc.magentoObjects.Login;
 
-public class MagentoApp {
-
-	public static void main(String[] args) {
+public class MagentoApp
+{
 		String url = "http://www.magento.com";
 		WebDriver  driver = new ChromeDriver();
 		driver.manage().window().maximize();
@@ -31,6 +30,5 @@ public class MagentoApp {
 		
 		
 		driver.quit();
-	}
 
 }
